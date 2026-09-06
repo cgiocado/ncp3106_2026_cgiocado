@@ -158,8 +158,8 @@ p{max-width:62ch;}
 .hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;}
 .hero-copy h1{
   font-size:clamp(2.6rem, 6vw, 4.6rem);
-  color:var(--ink);
-  text-shadow:3px 3px 0 rgba(255,255,255,.0);
+  color:#fff;
+  text-shadow:2px 2px 0 var(--ink);
 }
 .hero-copy h1 span{display:block;}
 .hero-copy .subline{
@@ -175,7 +175,7 @@ p{max-width:62ch;}
   padding:8px 16px;
 }
 .hero-copy p.lede{
-  color:var(--ink);
+  color:#fff;
   margin-top:22px;
   font-size:1.08rem;
   max-width:46ch;
